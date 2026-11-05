@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e3b4a">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<title>Contact · Campana Chez Fati</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+<main>
+  <section class="phero"><div class="wrap"><h1 data-t="ct_t"></h1><p data-t="ct_d"></p></div></section>
+
+  <section class="wrap sec">
+    <div class="contact-btns rv">
+      <a class="btn wa" data-wa target="_blank" rel="noopener"><i class="ico" data-i="chat"></i><span data-t="wa_l"></span></a>
+      <a class="btn line" data-tel><i class="ico" data-i="phone"></i><span data-phone-show></span></a>
+      <a class="btn line" data-mail><i class="ico" data-i="mail"></i><span data-t="mail_l"></span></a>
+    </div>
+  </section>
+
+  <section class="wrap sec">
+    <div class="two-col">
+      <div class="card rv">
+        <div class="row" style="margin-bottom:6px"><span class="status js-status"></span></div>
+        <h2 class="sec-t" style="margin:10px 0 8px" data-t="hrs_l"></h2>
+        <ul class="hours" id="hours"></ul>
+        <p class="note"><span data-t="cash"></span></p>
+      </div>
+      <div class="card rv">
+        <h2 class="sec-t" data-t="res_t"></h2>
+        <form class="form" id="resForm">
+          <label><span data-t="fn"></span><input name="name" type="text" required autocomplete="name"></label>
+          <div class="two">
+            <label><span data-t="fd"></span><input name="date" type="date" required></label>
+            <label><span data-t="ft"></span><input name="time" type="time" min="11:00" max="17:00" value="13:00" required></label>
+          </div>
+          <label><span data-t="fg"></span><input name="guests" type="number" min="1" max="30" value="2" required inputmode="numeric"></label>
+          <button class="btn wa" type="submit"><i class="ico" data-i="chat"></i><span data-t="send"></span></button>
+          <p class="note" style="margin:0" data-t="res_n"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap sec">
+    <div class="card info rv" style="margin-bottom:14px">
+      <div class="row"><i class="ico" data-i="pin"></i><span><b data-t="addr_l"></b> · <span data-t="addr_v"></span></span></div>
+      <div class="row"><span data-t="addr_h"></span></div>
+      <div><a class="btn line" data-dir target="_blank" rel="noopener"><i class="ico" data-i="nav"></i><span data-t="dir"></span></a></div>
+    </div>
+    <iframe class="map rv" title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=31.5170171,-9.7652129&z=17&output=embed"></iframe>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

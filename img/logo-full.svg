@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="1280" height="760" role="img" aria-label="Campana Café Restaurant">
+  <!-- plaque with a gentle swell on top and bottom -->
+  <path d="M30 70 C130 20 230 20 320 52 C410 20 510 20 610 70 L610 310 C510 360 410 360 320 328 C230 360 130 360 30 310 Z" fill="#2aa7a1"/>
+  <path d="M44 78 C138 36 232 36 320 66 C408 36 502 36 596 78 L596 302 C502 344 408 344 320 314 C232 344 138 344 44 302 Z" fill="none" stroke="#fffaf1" stroke-opacity=".6" stroke-width="3"/>
+  <!-- bell -->
+  <g transform="translate(320 54) scale(.85) translate(-64 0)">
+    <circle cx="64" cy="26" r="6" fill="#fffaf1"/>
+    <path d="M64 30c-20 0-27 19-27 38v15l-10 10h74l-10-10V68c0-19-7-38-27-38z" fill="#fffaf1"/>
+    <rect x="26" y="90" width="76" height="8" rx="4" fill="#fffaf1"/>
+    <circle cx="64" cy="106" r="8.5" fill="#d6403a"/>
+  </g>
+  <!-- name -->
+  <text x="320" y="238" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="92" letter-spacing="8" fill="#d6403a" stroke="#fffaf1" stroke-width="3" paint-order="stroke">CAMPANA</text>
+  <text x="320" y="282" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="32" fill="#fffaf1">Café · Restaurant</text>
+  <text x="320" y="316" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="20" letter-spacing="6" fill="#fffaf1" fill-opacity=".85">CHEZ FATI · ESSAOUIRA</text>
+</svg>
